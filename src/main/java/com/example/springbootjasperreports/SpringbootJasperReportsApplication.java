@@ -18,14 +18,14 @@ public class SpringbootJasperReportsApplication {
     public CommandLineRunner initialUserData(UserRepo repository){
         return (args) -> {
 
-            User user = new User("tim@gmail.com", "Tim", "1234", "ADMIN");
-            repository.save(user);
-
-            user = new User("tam@gmail.com", "Tam", "1234", "USER");
-            repository.save(user);
-
-            user = new User("tom@gmail.com", "Tom", "1234", "USER");
-            repository.save(user);
+//            User user = new User("tim@gmail.com", "Tim", "1234", "ADMIN");
+//            repository.save(user);
+//
+//            user = new User("tam@gmail.com", "Tam", "1234", "USER");
+//            repository.save(user);
+//
+//            user = new User("tom@gmail.com", "Tom", "1234", "USER");
+//            repository.save(user);
         };
     }
 }
